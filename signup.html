@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background:rgb(77, 142, 148);
+        }
+        div{
+            border-radius: 10px;
+            margin-left: 200px;
+
+        }
+        h2{
+            color: rgb(94, 97, 99);
+
+        }
+        .c1{
+            background-color: rgb(166, 231, 227);
+            z-index:1;
+            position: absolute;
+            height:600px;
+            width:500px;
+            margin-top: 40px;
+            font-size: 20px;
+            
+            
+        }
+        .c2{
+            font-size:20px;
+            background: rgb(233, 239, 241);
+            z-index:1;
+            position: absolute;
+            margin-left: 600px;
+            height: 600px;
+            width:500px;
+            margin-top: 40px;
+            text-align: center;
+
+
+            
+        }
+        h1{
+            color:rgb(77, 142, 148);
+        }
+        button{
+            color:white;
+            background-color:rgb(77, 142, 148);
+            height: 60px;
+            width:100px;
+            margin-right: 200px;
+            border:none;
+            border-radius:2px;
+
+
+;
+
+        }
+        #i{
+            height:40px;
+            width:300px;
+            font-size: 15px;
+        }
+        img{
+            height:300px;
+            margin-left: 40px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="c1">
+        <h2><center>weather forecast</center></h2>
+        <img src="https://media.istockphoto.com/id/1281150061/vector/register-account-submit-access-login-password-username-internet-online-website-concept.jpg?s=1024x1024&w=is&k=20&c=f_TqeoSwcJx1TEK9SbzoAI2Xa735RntKSA3LpfQZzao=">
+    </div>
+    <div class="c2">
+
+    <h1><center>Signin</center></h1><br>
+    <form action="/signin" method="POST">
+        
+     <input id="i" type="text" name="email" placeholder="Email Address"><br><br>
+    <input   id="i" type="password"  name="password" placeholder="Password"><br><br><br>
+        <input id="i1" type="checkbox">Remember Me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+        <a href="">Forget Password...?</a><br><br><br>
+
+        <button onclick="signin()">Signin</button>
+       
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
